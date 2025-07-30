@@ -30,3 +30,7 @@ helloWorld()
 passfunction()
 
 
+'''
+Functions are independent they do not deal with class and instance concept
+Methods are dependent they depend on the class for invoking.Method deals with class and instance concept
+'''
