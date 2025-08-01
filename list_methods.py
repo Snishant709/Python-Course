@@ -18,7 +18,7 @@ list1[0]=4
 print("Copy of list1 ",list3)
 list3.append(90)#will insert 90 at the end of the list
 print("Append ",list3)
-list3.pop()#will remove the last element from the list
+list3.pop()#remove the last element from list if nothing is specified in its index parameter po(2) will remove value on index2
 print("Pop ",list3)
 print("Print the index of 31 : ",list3.index(31))#
 list3.insert(0,21)
