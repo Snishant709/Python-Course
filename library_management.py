@@ -1,12 +1,21 @@
 class Library:
-    books=["Comics","Story","Wealth","Bravery"]
-    no_books=len(books)
-    
+    def __init__(self):
+        self.books=[]
+        self.no_of_books=0
+
+    def addbooks(self,book):
+        self.books.append(book)
+        self.no_of_books=len(self.books)
+
     def show(self):
-        print(f"The books we have is {self.books} and count is {self.no_books}")
+        print(f"Library has total {self.no_of_books} books and books are ")
+        for book in self.books:
+            print(book)
+
 obj1=Library()
-obj1.show()
-print(obj1.books.append("Novel"))
+obj1.addbooks("Harry Porter")
 obj1.show()
 
+    
 
+  
