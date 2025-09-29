@@ -1,5 +1,8 @@
 import pandas as pd
 
+#Series is 1d array consists of single column which is indexed
+#Dataframe is 2d array consists of column and rows which both together are indexed
+
 #creating a dinctionary and saving it as a file
 data={
     "Name":["Nishant","Chintu","Rohan","Shreyas"],
@@ -21,4 +24,19 @@ print("Knowing more about your data",df.info())
 
 #describe()-gives you the statistical info about your data
 print("Knowing more about statistical data \n",df.describe())
+
+#get the rows where slary is above 20000
+print(df[df['Salary']>20000])
+
+#get only the name and salary of the employee whoose salary is less then 20000
+print(df.loc[df['Salary']<20000,['Name','Age']])
+#the below one will not work as here precendence of '<' and '>' is less then bitwise operator '&'
+#print(df.loc[df['Salary']<20000 & df['Salary']>10000 ,['Name','Salary']])
+
+#so use the below code
+print(df.loc[(df['Salary']<20000) & (df['Salary']>10000) ,['Name','Salary']])
+# or
+print(df.loc[df['Salary'].between(10000,20000),['Name','Salary']])
+
+
 
