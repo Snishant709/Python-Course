@@ -15,12 +15,12 @@ print(df.isnull())
 print(df.isnull().sum())
 
 
-#droping the rows of None values axis=0 menas rows
+#droping the rows of None values axis=0 means rows
 # df.dropna(axis=0,inplace=True)
 # print("Dropping the rows \n",df)
 
 
-#droping the column of None values axis=1 menas rows
+#droping the column of None values axis=1 means columns
 # df.dropna(axis=1,inplace=True)
 # print("Dropping the columns \n",df)
 

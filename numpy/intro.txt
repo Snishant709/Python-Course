@@ -1,0 +1,17 @@
+Travis Oliphant creator of Numpy library in 2005.
+#features of Numpy uses array instead of list
+1)Speed
+2)less Memory
+3)Easy match operation
+4)It is the bas for all AI and ML 
+
+#Uses
+1)In image processing
+2)In stock market
+3)In medical field
+
+
+list vs Array
+lists are slow  whereas array are 52 hundred times faster then lists
+lists takes more memory while array takes less memory
+lists need loops which is slow while array is fast as it dont requires loop for big data

@@ -36,7 +36,7 @@ data2 = pd.DataFrame({
 })
 
 
-res2=pd.concat([data1,data2],axis=0,ignore_index=True)
+res2=pd.concat([data1,data2],ignore_index=True)#by default it takes 0 axis
 print("Printing the union keeping the row as true \n",res2)
 
 res2=pd.concat([data1,data2],axis=1,ignore_index=True)
