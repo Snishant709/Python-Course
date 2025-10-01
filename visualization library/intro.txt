@@ -1,0 +1,10 @@
+Matplotlib- John D. Hunter
+Seaborn- Michael Waskom
+
+1)
+Categorical-
+Nominal                           Ordinal
+it cant be ranked           it can be ranked
+ex-red,blue,green           ex-bsc,hsc,ssc
+
+2)Numerical
